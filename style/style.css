@@ -1,0 +1,134 @@
+*{
+  transform: 0.9sec;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(190, 147, 231);
+  font-family: sans-serif;
+  font-weight: 100;
+
+}
+/* header **************************************************************/
+header{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid white;
+}
+/* left header ******************************************************** */
+.left-header{
+  display: flex;
+}
+.left-header img{
+  margin-top: 10px;
+  width: 75px;
+}
+.left-header a{
+  text-decoration: none;
+}
+.left-header h1:hover{
+  color: white;
+}
+.left-header h1{
+  color: black;
+  margin-top: 30px;
+}
+/* right-header ****************************************************************** */
+.right-header ul{
+  padding-top: 15px;
+  display: flex;
+  list-style: none;
+}
+.right-header ul li {
+  margin-top: 20px;
+}
+.right-header ul a{
+  text-decoration: none;
+  padding-left: 30px;
+  font-size: 20px;
+  color: black;
+  margin-top: 20px;
+}
+.right-header ul a:hover{
+  color: white;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+table {
+  width: 600px;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.9);
+}
+
+th{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+    font-size: 20px;
+}
+td {
+    text-align: center;
+  padding: 15px;
+  background-color: rgba(255,255,255,0.2);
+  color: black;
+  font-size: 18px;
+}
+
+
+thead th  {
+    background-color: cadetblue;
+}
+.left-cells{
+    height: 53px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+.left-cells:nth-child(2){
+}
+
+.right-cells{
+    height: 30px;
+    padding-left: 90px;
+}
+.right-cells div {
+    width: 70px;
+    height: 23px;
+    background-color: rgb(235, 50, 50);
+}
+#right-box1{
+    background-color: rgb(122, 168, 30);
+}
+
+/* footer             */
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: blue;
+  text-align: center;
+  padding-bottom: 15px;
+  border-top: 1px solid white;
+  padding-top: 10px;
+}
+footer p{
+  cursor: pointer;
+}
