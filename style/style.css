@@ -101,7 +101,9 @@ thead th  {
     justify-content: space-between;
     padding: 15px 50px;
 }
-.left-cells:nth-child(2){
+.left-cells input{
+  width: 15px;
+  height: 15px;
 }
 
 .right-cells{
