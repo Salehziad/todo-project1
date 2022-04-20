@@ -1,4 +1,4 @@
-
+'use strict'
 var answers = [];
 // link to html
 let task1 =document.getElementById("task1").innerHTML;
