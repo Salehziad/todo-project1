@@ -22,7 +22,7 @@ console.log(answers);
 // making functions
 function answers1(){
 for(var i = 0; i < 1; i++){
-    answer1=prompt(task1);
+    answer1=prompt(task1).toLowerCase();
    if(answer1=="yes"){
        answers.push("yes");
    }else if(answer1=="no"){
@@ -35,7 +35,7 @@ for(var i = 0; i < 1; i++){
 
 function answers2(){
     for(var i = 0; i < 1; i++){
-        answer2=prompt(task2);
+        answer2=prompt(task2).toLowerCase();
        if(answer2=="yes"){
            answers.push("yes");
        }else if(answer2=="no"){
@@ -48,7 +48,7 @@ function answers2(){
 
 function answers3(){
     for(var i = 0; i < 1; i++){
-        answer3=prompt(task3);
+        answer3=prompt(task3).toLowerCase();
        if(answer3=="yes"){
            answers.push("yes");
        }else if(answer3=="no"){
@@ -62,7 +62,7 @@ function answers3(){
 
 function answers4(){
     for(var i = 0; i < 1; i++){
-        answer4=prompt(task4);
+        answer4=prompt(task4).toLowerCase();
        if(answer4=="yes"){
            answers.push("yes");
        }else if(answer4=="no"){
@@ -75,8 +75,8 @@ function answers4(){
 
 function answers5(){
     for(var i = 0; i < 1; i++){
-        answer5=prompt(task5);
-       if(answers5=="yes"){
+        answer5=prompt(task5).toLowerCase();
+       if(answer5=="yes"){
            answers.push("yes");
        }else if(answer5=="no"){
            answers.push("no")
